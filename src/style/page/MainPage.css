@@ -1,0 +1,18 @@
+:root {
+    --vh: 100%;
+}
+.page{
+    height: calc(var(--vh, 1vh) * 100);
+}
+.top{
+    border: 1px solid red;
+    height: 10%;
+}
+.middle{
+    border: 1px solid green;
+    height: 80%;
+}
+.bottom{
+    border: 1px solid blue;
+    height: 10%;
+}
