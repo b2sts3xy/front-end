@@ -1,5 +1,14 @@
 .top{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-weight: bolder;
+}
+.logbox{
+    position: absolute;
+    top: 5%;
+    right: 2px;
+    font-size: small;
+    font-weight: bold;
+    text-align: end;
+    cursor: pointer;
 }
