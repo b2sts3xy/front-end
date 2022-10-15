@@ -3,7 +3,7 @@
 - 모바일 친화적
 - 키워드에 맞는 공지 알림
 
-front-end : 이시영, 정승윤, 박규현(보조)
+front-end : 이시영, 정승윤, 박규현(보조)<br/>
 기술스택 : react
 
 ![ex_screenshot](./img/screenshot.png)
