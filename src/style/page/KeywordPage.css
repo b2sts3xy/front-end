@@ -1,0 +1,36 @@
+.k_Text{
+    margin-left: 15px;
+    margin-top: 40px;
+    font-size: 30px;
+    width: 65%;
+    background-color: white;
+    
+}
+.k_Text::placeholder{
+    font-size: medium;
+    margin-bottom: 100px;
+}
+
+.k_Add{
+    margin-left:1px;
+    margin-top: 5px;
+    font-size: 25px;
+    width: 20%;
+    background-color: white;
+}
+
+.keywordSection{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.keyword{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: rgb(238, 226, 255);
+}
+

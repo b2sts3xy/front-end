@@ -4,6 +4,8 @@ import MainPage from './page/MainPage';
 import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { BrowserView, MobileView } from 'react-device-detect';
+import LoginPage from './page/LoginPage';
+import SignupPage from './page/SignupPage';
 
 
 function App() {
@@ -21,12 +23,16 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/keyword" element={<KeywordPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignupPage />} />
           </Routes>
         </BrowserView>
         <MobileView>
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/keyword" element={<KeywordPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignupPage />} />
           </Routes>
         </MobileView>
       </div>
